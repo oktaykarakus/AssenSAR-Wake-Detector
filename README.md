@@ -1,5 +1,6 @@
-This source code package includes the MATLAB source codes for the ship wake detection
-	via sparse regularisation by using the GMC penalty function.
+This source code package includes the MATLAB source codes for the ship wake detection via sparse regularisation by using the GMC penalty function.
+
+This code implements a method for detecting ship wakes in synthetic aperture radar (SAR) images of the sea surface. The method is based on a linear model assumption for the wakes and hence the Radon transform is employed, within an inverse problem formulation, for detecting the wakes. The cost function associated with the image formation model includes a sparsity enforcing penalty, i.e., the generalized minimax concave (GMC) function. Despite being a nonconvex function, the GMC penalty allows the overall cost function to remain convex. The proposed solution is based on a Bayesian formulation, whereby the point estimates are recovered using a maximum a posteriori (MAP) estimation.
 
 This package includes three folders:
 
